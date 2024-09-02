@@ -1,16 +1,45 @@
-# chat_bot
+AI-Powered Medical Chatbot: BioBERT vs. LLaMA 2 13B Analysis
+Overview
+This repository hosts the implementation and comparative analysis of two advanced language models, BioBERT and LLaMA 2 13B, applied to an AI-powered medical chatbot designed to enhance healthcare information delivery. Our project aims to leverage these models to provide accurate, empathetic, and personalized user interactions in a healthcare setting.
 
-A new Flutter project.
+Key Features
+Comparative Analysis: Deep dive into the strengths and weaknesses of BioBERT and LLaMA 2 13B in processing biomedical text.
+Multilingual Support: Ensures the chatbot can serve a diverse user base with capabilities in multiple languages.
+Empathetic Interaction: Focuses on generating responses that are not only accurate but also empathetic and contextually appropriate.
+Installation
+Clone this repository:
 
-## Getting Started
+bash
+Copy code
+git clone https://github.com/Jesuwin25/Healthcare_Assistant_using_LLaMA_2_13B
+cd Healthcare_Assistant_using_LLaMA_2_13B
+Install dependencies:
 
-This project is a starting point for a Flutter application.
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Run the application:
 
-A few resources to get you started if this is your first Flutter project:
+bash
+Copy code
+python app.py
+Navigate to http://localhost:5000 to interact with the chatbot.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Project Structure
+app.py: Main application file to launch the chatbot.
+models/: Directory containing model configurations and weights.
+data/: Dataset used for training and evaluating the models.
+Contributing
+Contributions are welcome! Please read the CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Authors
+Jesuwin John Prince W - Initial work - jesuwinjohn
+Harish Kumar G - Contributor - harishkumar
+Satiya Pragaash R M - Contributor - satiyapragaash
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+SRM Institute of Science and Technology for supporting this research.
+All contributors who have participated in this project.
